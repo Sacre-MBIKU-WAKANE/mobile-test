@@ -1,4 +1,5 @@
 import { ImageBackground, StyleSheet, Text, View } from "react-native";
+import Discover from "./organisms/discover";
 import Profile from "./organisms/profile";
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
         resizeMode='cover'
       >
         <Profile />
+        <Discover />
       </ImageBackground>
     </View>
   );
@@ -23,6 +25,5 @@ const styles = StyleSheet.create({
   image: {
     flex: 1,
     justifyContent: "center",
-    paddingHorizontal: 20,
   },
 });

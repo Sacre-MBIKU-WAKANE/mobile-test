@@ -30,8 +30,6 @@ const Profile = () => {
             Follow
           </Button>
         </View>
-        <View></View>
-        <View></View>
       </View>
     </View>
   );
@@ -45,6 +43,7 @@ const styles = StyleSheet.create({
     position: "relative",
     justifyContent: "center",
     alignItems: "center",
+    paddingHorizontal: 20,
   },
   avatar: {
     borderColor: "#fff",
